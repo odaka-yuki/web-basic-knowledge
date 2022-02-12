@@ -81,6 +81,9 @@ const Layout = ({ children }) => {
 					lightTheme();
 				}
 				break;
+			
+			default:
+				break;
 		}
 	}, [theme]);
 
