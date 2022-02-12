@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-js-72fdee97b533f26c1d8c.js","mappings":"kJAQA,UANqB,WACpB,OACC","sources":["webpack://web-basic-knowledge/./src/pages/404.js"],"sourcesContent":["import React from \"react\";\n\nconst NotFoundPage = () => {\n\treturn (\n\t\t<div></div>\n\t);\n};\n\nexport default NotFoundPage;"],"names":[],"sourceRoot":""}
