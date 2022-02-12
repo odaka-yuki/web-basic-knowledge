@@ -4,7 +4,6 @@ import * as styles from "./style.module.scss";
 
 const SimplePageCard = ({ pageData, Heading = "h3" }) => {
 	const isUpdated = pageData.node.updateAt && pageData.node.publishedAt < pageData.node.updateAt;
-	console.log(pageData);
 
 	return (
 		<div className={styles.card}>
