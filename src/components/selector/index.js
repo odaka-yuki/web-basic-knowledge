@@ -8,7 +8,7 @@ const Selector = ({ title, name, options, selected, onChangeValue }) => {
 			return;
 		}
 		localStorage.setItem(name, selected);
-	}, [selected]);
+	}, [name, selected]);
 
 	return (
 		<label className={styles.label}>
