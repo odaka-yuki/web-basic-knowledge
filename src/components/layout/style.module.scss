@@ -67,12 +67,6 @@ $header_height: 60px;
 }
 
 .modal {
-	&.isOpen {
-		background-color: rgba(#333, 0.6);
-		backdrop-filter: blur(2px);
-		z-index: 100;
-	}
-	
 	position: fixed;
 	top: $header_height;
 	left: 0;
@@ -81,6 +75,12 @@ $header_height: 60px;
 	background-color: rgba(39, 39, 39, 0);
 	transition: z-index .3s ease-out, background-color .3s ease-out;
 	z-index: -1;
+
+	&.isOpen {
+		background-color: rgba(#333, 0.6);
+		backdrop-filter: blur(2px);
+		z-index: 100;
+	}
 }
 
 .resetButton {
