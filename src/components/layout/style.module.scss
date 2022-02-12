@@ -50,10 +50,6 @@ $header_height: 60px;
 }
 
 .menu {
-	&.isOpen {
-		transform: translateX(-100%);
-	}
-	
 	position: absolute;
 	left: 100%;
 	width: min(800px, 100%);
@@ -64,6 +60,10 @@ $header_height: 60px;
 	transition: transform .3s ease-out;
 	overflow-y: auto;
 	z-index: 999;
+
+	&.isOpen {
+		transform: translateX(-100%);
+	}
 }
 
 .modal {
