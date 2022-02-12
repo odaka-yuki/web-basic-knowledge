@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-index-js-35a77fe822bd3fe16db0.js","mappings":"kJAQA,UANkB,WACjB,OACC","sources":["webpack://web-basic-knowledge/./src/pages/index.js"],"sourcesContent":["import React from \"react\";\n\nconst IndexPage = () => {\n\treturn (\n\t\t<div>TOP</div>\n\t);\n};\n\nexport default IndexPage;"],"names":[],"sourceRoot":""}

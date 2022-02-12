@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"pageContext":{}},
-    "staticQueryHashes": []}
+    "result": {"data":{"allMicrocmsPage":{"edges":[{"node":{"id":"b573899e-889f-5969-8e73-a018156a4a75","title":"フォントサイズを基準にしたデザイン","description":"フォントサイズ","publishedAt":"2022-02-12","updatedAt":"2022-02-12","category":null}},{"node":{"id":"19f22683-20e0-5d15-98ed-0efb947e1205","title":"コンポーネント","description":"コンポーネントについての説明文","publishedAt":"2022-02-12","updatedAt":"2022-02-12","category":{"name":"デザイン"}}}]}},"pageContext":{}},
+    "staticQueryHashes": ["1251125735"]}

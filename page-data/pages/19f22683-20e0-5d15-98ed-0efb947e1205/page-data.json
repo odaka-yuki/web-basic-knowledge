@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-page-js",
+    "path": "/pages/19f22683-20e0-5d15-98ed-0efb947e1205",
+    "result": {"pageContext":{"page":{"node":{"id":"19f22683-20e0-5d15-98ed-0efb947e1205","html":"<div class=\"container\">\n<h2 class=\"title\">Title</h2>\n</div>","description":"コンポーネントについての説明文","css":".container {\n  padding: 16px;\n}\n\n.title {\n  background-color: #2457a9;\n  color: white;\n}","javascript":"console.log(\"First Page Script\");","createdAt":"2022-02-12","title":"コンポーネント","category":{"id":"x6na7xi2g5nt","name":"デザイン","slug":"design"}}}}},
+    "staticQueryHashes": ["1251125735"]}

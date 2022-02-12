@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-js",
+    "path": "/categories/ux",
+    "result": {"pageContext":{"category":{"node":{"name":"UX","slug":"ux","id":"8b024a20-bff8-5f97-bbcc-ebfce7d0e01a"}},"pages":[{"node":{"id":"b573899e-889f-5969-8e73-a018156a4a75","html":null,"description":"フォントサイズ","css":null,"javascript":null,"createdAt":"2022-02-12","title":"フォントサイズを基準にしたデザイン","category":null}},{"node":{"id":"19f22683-20e0-5d15-98ed-0efb947e1205","html":"<div class=\"container\">\n<h2 class=\"title\">Title</h2>\n</div>","description":"コンポーネントについての説明文","css":".container {\n  padding: 16px;\n}\n\n.title {\n  background-color: #2457a9;\n  color: white;\n}","javascript":"console.log(\"First Page Script\");","createdAt":"2022-02-12","title":"コンポーネント","category":{"id":"x6na7xi2g5nt","name":"デザイン","slug":"design"}}}]}},
+    "staticQueryHashes": ["1251125735"]}
