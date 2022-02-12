@@ -1,0 +1,11 @@
+.text {
+	text-align: right;
+
+	a {
+		transition: color .3s ease-out;
+	}
+
+	a:hover {
+		color: #888;
+	}
+}

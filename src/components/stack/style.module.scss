@@ -1,0 +1,19 @@
+.stack {
+	> * > * + * {
+		margin-top: 16px;
+	}
+
+	> * + * {
+		margin-top: 32px;
+	}
+
+	.stack {
+		> * > * + * {
+			margin-top: 4px;
+		}
+
+		> * + * {
+			margin-top: 24px;
+		}
+	}
+}
