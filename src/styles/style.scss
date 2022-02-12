@@ -1,0 +1,43 @@
+:root {
+	--color: #333;
+	--bg-color: #fff;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+html {
+	line-height: 1.8;
+	color: var(--color);
+}
+
+body {
+	margin: 0;
+}
+
+ul, ol {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	color: inherit;
+}
+
+button {
+	padding: 0;
+	border: unset;
+	background-color: unset;
+	color: inherit;
+	cursor: pointer;
+}
