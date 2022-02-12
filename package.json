@@ -1,0 +1,37 @@
+{
+  "name": "web-basic-knowledge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "prebuild": "gatsby clean",
+    "build": "gatsby build --prefix-paths",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odaka-yuki/web-basic-knowledge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odaka-yuki/web-basic-knowledge/issues"
+  },
+  "homepage": "https://github.com/odaka-yuki/web-basic-knowledge#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1",
+    "gatsby": "^4.7.1",
+    "gatsby-plugin-sass": "^5.7.0",
+    "gatsby-source-microcms": "^2.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
