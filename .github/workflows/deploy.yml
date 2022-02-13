@@ -11,7 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - run: git config user.name ${{ secrets.NAME }}
-      - run: git config user.email ${{ secrets.E_MAIL }}
+        with:
+          cache: npm
+      - run: git config --global user.name ${{ secrets.NAME }}
+      - run: git config --global user.email ${{ secrets.E_MAIL }}
       - run: npm ci
       - run: npm run deploy
