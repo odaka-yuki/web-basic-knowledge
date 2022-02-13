@@ -15,5 +15,6 @@ jobs:
           cache: npm
       - run: git config --global user.name ${{ secrets.NAME }}
       - run: git config --global user.email ${{ secrets.E_MAIL }}
+      - run: git remote set-url origin git@github.com:odaka-yuki/web-basic-knowledge.git
       - run: npm ci
       - run: npm run deploy
